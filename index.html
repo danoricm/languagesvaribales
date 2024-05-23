@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Types in Brython</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
+</head>
+<body onload="brython()">
+<script type="text/python">
+from browser import document, console
+
+# Integer
+my_int = 42
+console.log("Integer:", my_int)
+
+# Float
+my_float = 3.14
+console.log("Float:", my_float)
+
+# Double (Python uses float for both float and double)
+my_double = 3.14159
+console.log("Double:", my_double)
+
+# Char (Python uses string for characters)
+my_char = 'A'
+console.log("Char:", my_char)
+
+# String
+my_string = "Hello, Brython!"
+console.log("String:", my_string)
+
+# Boolean
+my_boolean = True
+console.log("Boolean:", my_boolean)
+
+# List (Array)
+my_list = [1, 2, 3, 4, 5]
+console.log("List:", my_list)
+
+# Tuple
+my_tuple = (42, "Brython", True)
+console.log("Tuple:", my_tuple)
+
+# Function
+def my_function(x):
+    return x * 2
+
+console.log("Function (2 * 3):", my_function(3))
+
+# Class (Struct equivalent)
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+my_person = Person("Alice", 25)
+console.log("Class: Name =", my_person.name, "Age =", my_person.age)
+
+# None (Null)
+my_none = None
+console.log("None:", my_none)
+</script>
+</body>
+</html>
