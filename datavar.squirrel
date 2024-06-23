@@ -1,0 +1,10 @@
+// datavar.nut
+local intVar = 10;
+local floatVar = 10.5;
+local charVar = 'a';
+local stringVar = "Hello, Squirrel";
+
+print("intVar: " + intVar + "\n");
+print("floatVar: " + floatVar + "\n");
+print("charVar: " + charVar + "\n");
+print("stringVar: " + stringVar + "\n");

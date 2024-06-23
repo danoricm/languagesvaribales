@@ -1,0 +1,10 @@
+/* datavar.pli */
+DCL intVar FIXED DECIMAL(5) INIT(10);
+DCL floatVar FLOAT DECIMAL(5,2) INIT(10.5);
+DCL charVar CHAR(1) INIT('a');
+DCL stringVar CHAR(20) INIT('Hello, PL/I');
+
+PUT LIST ('intVar: ' || intVar);
+PUT LIST ('floatVar: ' || floatVar);
+PUT LIST ('charVar: ' || charVar);
+PUT LIST ('stringVar: ' || stringVar);

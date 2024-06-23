@@ -1,0 +1,18 @@
+;; datavar.s
+(define int-var 10)
+(define float-var 10.5)
+(define char-var #\a)
+(define string-var "Hello, Scheme")
+
+(display "int-var: ")
+(display int-var)
+(newline)
+(display "float-var: ")
+(display float-var)
+(newline)
+(display "char-var: ")
+(display char-var)
+(newline)
+(display "string-var: ")
+(display string-var)
+(newline)

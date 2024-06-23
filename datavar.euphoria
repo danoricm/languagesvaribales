@@ -1,0 +1,10 @@
+-- datavar.e
+integer intVar = 10
+float floatVar = 10.5
+atom charVar = 'a'
+sequence stringVar = "Hello, Euphoria"
+
+puts(1, "intVar: " & intVar & "\n")
+puts(1, "floatVar: " & floatVar & "\n")
+puts(1, "charVar: " & charVar & "\n")
+puts(1, "stringVar: " & stringVar & "\n")

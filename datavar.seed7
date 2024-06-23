@@ -1,0 +1,10 @@
+$ datavar.s7
+const var intVar is 10;
+const var floatVar is 10.5;
+const var charVar is 'a';
+const var stringVar is "Hello, Seed7";
+
+write("intVar: ", intVar, "\n");
+write("floatVar: ", floatVar, "\n");
+write("charVar: ", charVar, "\n");
+write("stringVar: ", stringVar, "\n");

@@ -1,0 +1,10 @@
+// datavar.p
+new intVar = 10;
+new Float:floatVar = 10.5;
+new charVar = 'a';
+new stringVar[] = "Hello, Pawn";
+
+printf("intVar: %d\n", intVar);
+printf("floatVar: %f\n", floatVar);
+printf("charVar: %c\n", charVar);
+printf("stringVar: %s\n", stringVar);
