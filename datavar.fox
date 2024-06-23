@@ -1,0 +1,11 @@
+* datavar.fox
+LOCAL intVar, floatVar, charVar, stringVar
+intVar = 10
+floatVar = 10.5
+charVar = "a"
+stringVar = "Hello, Visual FoxPro"
+
+? "intVar: " + STR(intVar)
+? "floatVar: " + STR(floatVar)
+? "charVar: " + charVar
+? "stringVar: " + stringVar

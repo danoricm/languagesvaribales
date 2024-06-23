@@ -1,0 +1,18 @@
+# datavar.spl
+PROGRAM
+    VAR
+        intVar : INTEGER;
+        floatVar : REAL;
+        charVar : CHAR;
+        stringVar : STRING;
+    BEGIN
+        intVar := 10;
+        floatVar := 10.5;
+        charVar := 'a';
+        stringVar := "Hello, SPL";
+        
+        WRITELN("intVar: ", intVar);
+        WRITELN("floatVar: ", floatVar);
+        WRITELN("charVar: ", charVar);
+        WRITELN("stringVar: ", stringVar);
+    END.

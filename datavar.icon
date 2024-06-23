@@ -1,0 +1,12 @@
+# datavar.icon
+procedure main()
+    intVar := 10
+    floatVar := 10.5
+    charVar := 'a'
+    stringVar := "Hello, Icon"
+
+    write("intVar: ", intVar)
+    write("floatVar: ", floatVar)
+    write("charVar: ", charVar)
+    write("stringVar: ", stringVar)
+end

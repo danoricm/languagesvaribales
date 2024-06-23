@@ -1,0 +1,11 @@
+(* datavar.sm *)
+val int_var = 10
+val float_var = 10.5
+val char_var = #"a"
+val string_var = "Hello, Standard ML"
+
+val () =
+    print ("int_var: " ^ Int.toString int_var ^ "\n");
+    print ("float_var: " ^ Real.toString float_var ^ "\n");
+    print ("char_var: " ^ Char.toString char_var ^ "\n");
+    print ("string_var: " ^ string_var ^ "\n");
